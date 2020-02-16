@@ -1,5 +1,5 @@
 // This belongs with the Unity Project called
-// "Contro_Arduino_with_Unity_01"
+// "Control_Arduino_with_Unity_01"
 
 int data;
 
@@ -22,3 +22,8 @@ void loop() {
     }
   }
 }
+
+// Testing to see if board works
+//void loop() {
+//Serial.println("Hello World");
+//}
