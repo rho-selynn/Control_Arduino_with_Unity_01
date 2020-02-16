@@ -5,7 +5,7 @@ using System.IO.Ports;
 
 public class LED : MonoBehaviour
 {
-    public SerialPort serial = new SerialPort("COM 3", 9600);
+    public SerialPort serial = new SerialPort("COM3", 9600);
     private bool lightState = false;
     
     public void onLed()
